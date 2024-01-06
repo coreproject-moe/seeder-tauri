@@ -3,6 +3,6 @@
 	import { beforeUpdate } from 'svelte';
 
 	beforeUpdate(() => {
-		goto('/upload');
+		goto('/user/login');
 	});
 </script>
