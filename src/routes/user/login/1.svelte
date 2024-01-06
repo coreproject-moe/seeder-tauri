@@ -8,8 +8,6 @@
 	import { createEventDispatcher } from 'svelte';
 	import { z } from 'zod';
 
-	const dispatch = createEventDispatcher();
-
 	const schema = z.object({
 		email_or_username: z.string(),
 		password: z.string()
@@ -20,7 +18,8 @@
 			password: ''
 		},
 		onSubmit: async (values) => {
-			dispatch('submit', values);
+			// const dispatch = createEventDispatcher();
+			// dispatch('submit', values);
 		},
 		extend: [reporter, validator({ schema })]
 	});
