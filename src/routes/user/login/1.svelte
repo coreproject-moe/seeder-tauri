@@ -36,8 +36,8 @@
 		>hey there! welcome back</span
 	>
 
-	<form-fields class="flex flex-col gap-7 md:block">
-		<email-or-username-field class="flex flex-col gap-[0.3rem] md:gap-[0.5vw]">
+	<div class="flex flex-col gap-7 md:block">
+		<div class="flex flex-col gap-[0.3rem] md:gap-[0.5vw]">
 			<label for="email-or-username" class="text-base font-semibold leading-none md:text-[1.1vw]">
 				Email / Username
 			</label>
@@ -47,17 +47,17 @@
 				placeholder="sora_amamiya@coreproject.moe / soraamamiya#0001"
 				class="h-12 w-full rounded-xl border-[0.4vw] border-primary-500 bg-transparent px-5 text-base font-medium outline-none !ring-0 transition-all placeholder:text-white/50 focus:border-primary-400 md:h-[3.125vw] md:rounded-[0.75vw] md:border-[0.2vw] md:px-[1vw] md:text-[1.1vw]"
 			/>
-			<div slot="placeholder">
-				<info class="mt-[0.75vw] flex items-center gap-2 md:mt-[0.5vw] md:gap-[0.5vw]">
+			<div>
+				<div class="mt-[0.75vw] flex items-center gap-2 md:mt-[0.5vw] md:gap-[0.5vw]">
 					<Info class="w-3 opacity-70 md:w-[0.9vw]" />
 					<span class="text-[0.7rem] leading-none text-surface-300 md:text-[0.75vw]"
 						>we’ll send you a verification email, so please ensure it’s active</span
 					>
-				</info>
+				</div>
 			</div>
-		</email-or-username-field>
+		</div>
 
-		<password-field class="flex flex-col gap-[0.3rem] md:mt-[1.5vw] md:gap-[0.5vw]">
+		<div class="flex flex-col gap-[0.3rem] md:mt-[1.5vw] md:gap-[0.5vw]">
 			<label for="password" class="text-base font-semibold leading-none md:text-[1.1vw]">
 				Password
 			</label>
@@ -72,7 +72,7 @@
 					/>
 				</div>
 			</div>
-		</password-field>
+		</div>
 
 		<div class="flex flex-col items-start md:mt-[3vw]">
 			<a
@@ -82,7 +82,7 @@
 				{@html `< forgot password? >`}
 			</a>
 		</div>
-	</form-fields>
+	</div>
 
 	<div class="flex items-center justify-between">
 		<div class="flex flex-col gap-1 md:gap-[0.5vw]">
@@ -95,7 +95,7 @@
 			type="submit"
 			class="btn h-12 rounded-lg bg-secondary-800 p-0 px-5 text-base font-semibold md:h-[2.75vw] md:rounded-[0.5vw] md:px-[1.25vw] md:text-[0.95vw]"
 		>
-			<span>Continue</span>
+			<span>Log In</span>
 			<ArrowUpRight class="w-4 rotate-45 md:w-[1vw]" />
 		</button>
 	</div>
