@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ImageLoader from '$components/shared/image/image_loader.svelte';
-	import { latest_animes } from '$data/mock/latest_animes';
+	import { latest_animes } from '$data/latest_animes';
 	import CoreProject from '$icons/logos/core_project.svelte';
 	import Refresh from '$icons/shapes/refresh.svelte';
 	import { Timer as EasyTimer } from 'easytimer.js';
