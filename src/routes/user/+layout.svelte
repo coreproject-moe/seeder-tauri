@@ -4,7 +4,7 @@
 	import CoreProject from '$icons/logos/core_project.svelte';
 	import Refresh from '$icons/shapes/refresh.svelte';
 	import { Timer as EasyTimer } from 'easytimer.js';
-	import sample from 'lodash/sample';
+	import * as _ from 'lodash-es';
 	import { onDestroy, onMount } from 'svelte';
 	import { blur } from 'svelte/transition';
 
@@ -23,7 +23,7 @@
 	});
 
 	const change_index = () => {
-		const item = sample(latest_animes);
+		const item = _.sample(latest_animes);
 
 		image = item?.cover;
 		name = item?.name;
