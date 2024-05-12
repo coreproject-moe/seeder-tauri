@@ -54,7 +54,7 @@
 		"easytimer.js": "^4.6.0",
 		"felte": "^1.2.14",
 		"lodash-es": "^4.17.21",
-		"marked": "^11.1.1",
+		"marked": "^11.2.0",
 		"marked-emoji": "^1.4.0",
 		"marked-highlight": "^2.1.0",
 		"marked-mangle": "^1.1.7",
