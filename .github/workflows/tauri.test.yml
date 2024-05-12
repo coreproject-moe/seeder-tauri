@@ -36,7 +36,6 @@ jobs:
       - name: install dependencies (macos only)
         if: matrix.platform == 'macos-latest'
         run: |
-          npm i @rollup/rollup-darwin-x64
           npm i @tauri-apps/cli-darwin-x64
 
       - name: install frontend dependencies
