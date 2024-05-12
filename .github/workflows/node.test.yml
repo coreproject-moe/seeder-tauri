@@ -27,9 +27,4 @@ jobs:
           cache: 'npm'
 
       - run: npm ci
-      - name: Install deps (ubuntu only)
-        if: matrix.platform == 'ubuntu-latest'
-        run: |
-          npm i @rollup/rollup-linux-x64-gnu
-
       - run: npm run test
