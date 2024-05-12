@@ -50,7 +50,7 @@
 		"@types/node": "^20.12.11",
 		"@types/nprogress": "^0.2.3",
 		"@types/textarea-caret": "^3.0.3",
-		"dayjs": "^1.11.10",
+		"dayjs": "^1.11.11",
 		"easytimer.js": "^4.6.0",
 		"felte": "^1.2.14",
 		"lodash-es": "^4.17.21",
