@@ -18,7 +18,7 @@ tauri-build = { version = "1.5.1", features = [] }
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
 tauri = { version = "1.6.0", features = [] }
-reqwest = "0.11.23"
+reqwest = "0.12.4"
 const_format = "0.2.32"
 
 [features]
