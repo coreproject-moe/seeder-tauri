@@ -8,16 +8,25 @@ updates:
   - package-ecosystem: 'npm' # See documentation for possible values
     directory: '/' # Location of package manifests
     schedule:
-      interval: 'daily'
+      interval: "weekly"
+      # Check for npm updates on friday
+      day: "friday"
+
     open-pull-requests-limit: 100
   - package-ecosystem: 'cargo' # See documentation for possible values
     directory: './src-tauri' # Location of package manifests
     schedule:
-      interval: 'daily'
+      interval: "weekly"
+      # Check for npm updates on friday
+      day: "friday"
+
     open-pull-requests-limit: 100
   # Actions
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
-      interval: 'daily'
+      interval: "weekly"
+      # Check for npm updates on friday
+      day: "friday"
+
     open-pull-requests-limit: 100
