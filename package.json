@@ -1,11 +1,13 @@
 {
-	"name": "seeder-tauri",
+	"name": "coreproject-seeder",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
+		"dev": "npm run tauri dev",
+		"build": "npm run tauri build",
 		"tauri": "tauri",
-		"dev": "vite dev",
-		"build": "vite build",
+		"sveltekit:dev": "vite dev",
+		"sveltekit:build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
