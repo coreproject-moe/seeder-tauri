@@ -55,7 +55,7 @@
 		"marked-xhtml": "^1.0.9",
 		"nprogress": "^0.2.0",
 		"postcss": "^8.4.33",
-		"prettier": "^3.2.5",
+		"prettier": "^3.3.1",
 		"prettier-plugin-svelte": "^3.2.4",
 		"prettier-plugin-tailwindcss": "^0.6.1",
 		"pretty-bytes": "^6.1.1",
