@@ -1,1 +1,5 @@
-<h1>CoreProject Seeder</h1>
+<script lang="ts">
+	let title = $state("coreproject-seeder");
+</script>
+
+{title}
