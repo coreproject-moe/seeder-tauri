@@ -8,7 +8,9 @@ updates:
   - package-ecosystem: 'npm' # See documentation for possible values
     directory: '/' # Location of package manifests
     schedule:
-      interval: 'daily'
+      interval: 'weekly'
+      # Check for npm updates on friday
+      day: 'friday'
     labels:
       - 'npm'
       - 'dependencies'
@@ -17,7 +19,9 @@ updates:
   - package-ecosystem: 'cargo' # See documentation for possible values
     directory: './src-tauri' # Location of package manifests
     schedule:
-      interval: 'daily'
+      interval: 'weekly'
+      # Check for npm updates on friday
+      day: 'friday'
     labels:
       - 'cargo'
       - 'dependencies'
@@ -27,7 +31,9 @@ updates:
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
-      interval: 'daily'
+      interval: 'weekly'
+      # Check for npm updates on friday
+      day: 'friday'
     labels:
       - 'github actions'
       - 'dependencies'
