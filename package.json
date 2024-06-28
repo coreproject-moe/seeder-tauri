@@ -29,7 +29,7 @@
 		"svelte-check": "^3.8.1",
 		"tslib": "^2.4.1",
 		"typescript": "^5.5.2",
-		"typescript-eslint": "^8.0.0-alpha.30",
+		"typescript-eslint": "^8.0.0-alpha.34",
 		"vite": "^5.3.1"
 	},
 	"type": "module"
